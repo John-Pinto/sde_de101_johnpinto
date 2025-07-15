@@ -1,2 +1,2 @@
-# sde_de101_johnpinto
-This repo contains all the lesson for DE 101 course.
+# Data Engineering 101 Course
+This repo contains all the lessons for the DE 101 course.
