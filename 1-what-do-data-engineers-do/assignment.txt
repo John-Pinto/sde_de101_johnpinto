@@ -1,0 +1,70 @@
+Question: Imagine that you are hired to enable data analytics; where would you start? How would you go about gathering requirements?
+
+Answer:
+
+The most common mistake in data analytics is starting with the data itself. Teams get bogged down in building complex data warehouses and collecting every byte of information possible, only to find that none of it answers the critical questions the business is asking.
+
+A more effective method is to work backward from the desired business outcomes. This ensures that every step of your analytics strategy is directly tied to a tangible goal. Here is a step-by-step guide to implementing this approach.
+
+Step 1: Define Business Objectives
+
+Before you write a single line of code or look at a single data table, you must understand what the business wants to achieve. This conversation should involve executive leadership and key department heads. Ignore technology for now and focus entirely on strategy.
+
+Key Questions to Ask Stakeholders:
+
+1. Strategic Goals: What are our top 3-5 strategic goals for the next year? (e.g., increase market share by 10%, reduce customer churn by 15%, improve operational efficiency by 20%).
+
+2. Decision Making: What are the most critical decisions you have to make weekly, monthly, or quarterly? What information do you currently lack?
+
+3. Pain Points: What are the biggest challenges or inefficiencies in your department or in the company as a whole?
+
+Step 2: Translate Objectives into Key Business Questions
+
+Once you have the high-level objectives, break them down into specific, answerable questions. This is the crucial step of translating a broad goal into a concrete analytical problem.
+
+Business Objective: Key Business Questions
+
+1. Increase Customer Lifetime Value (CLV): 
+    * Which customer segments are the most profitable over time?
+    * What are the key behaviors of our highest-value customers?
+    * Which marketing channels bring in customers with the highest CLV?
+    * At what point in the customer journey are we most likely to lose a customer?
+
+2. Reduce Operational Costs:
+    * Where are the biggest bottlenecks in our supply chain?
+    * Which manufacturing lines have the highest defect rates?
+    * Can we predict equipment failure before it happens?
+
+Step 3: Identify the Necessary Metrics and KPIs
+
+With specific questions in hand, you can now determine exactly what you need to measure to answer them. These are your Key Performance Indicators (KPIs).
+
+Continuing the CLV Example: To answer the question, "Which customer segments are the most profitable?", you would need the following metrics:
+    * Average Purchase Value: The average amount a customer spends in a single transaction.
+    * Purchase Frequency: How often a customer makes a purchase in a given period.
+    * Customer Lifespan: How long a person remains an active customer.
+    * Customer Acquisition Cost (CAC): How much it costs to acquire a new customer from a specific channel.
+    * Segmentation Data: Demographics (age, location), behavior (products viewed, login frequency), etc.
+
+Step 4: Pinpoint the Required Data Sources
+
+This is the first point where you start thinking about the actual data. Based on the metrics and KPIs you've defined, you can now create a list of the data points and sources you'll need.
+
+Metric/KPI - Potential Data Source(s):
+    * Average Purchase Value - E-commerce Platform, Point-of-Sale (POS) System
+    * Purchase Frequency - CRM, E-commerce Platform
+    * Customer Lifespan - CRM, Order Database
+    * CAC - Google Analytics, Facebook Ads, Marketing Database
+    * Segmentation Data - CRM, Website Analytics, Email Marketing Tool
+
+Step 5: Assess the Technology and People
+
+Now that you have a clear blueprint of what you need, you can make informed decisions about the technology, tools, and talent required to execute.
+
+1. Data Collection & Integration: How will you extract data from the sources identified in Step 4? Do you need an ETL (Extract, Transform, Load) tool or a custom script?
+2. Data Storage: Where will this data live? A data warehouse is often the best choice for structured analytical data.
+3. Data Transformation: How will you clean the data and combine it to calculate your KPIs?
+4. Data Visualization: How will the business stakeholders consume the answers? Utilizing Business Intelligence (BI) tools that can build dashboards that directly track the KPIs defined in Step 3.
+5. Talent: What skills do you need? Do you need to hire a Data Analyst, a Data Engineer, or a Data Scientist? Your initial requirements will make this clear.
+
+By working backward, you build a system with a clear purpose, ensuring that your investment in data analytics delivers answers, not just more data.
